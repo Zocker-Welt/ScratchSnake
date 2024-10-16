@@ -6,7 +6,7 @@ class User:
         try:
             self.user_data = req.get(f"https://api.scratch.mit.edu/users/{self.username}").json()
         except Exception:
-            print(f"ERROR: couldn't fetch https://api.scratch.mit.edu/users/{self.username}.\nJson, id, scratchteam, join_date, logo, wiwo, bio, country won't work")
+            print(f"ERROR: couldn't fetch https://api.scratch.mit.edu/users/{self.username}.\njson, id, scratchteam, join_date, logo, wiwo, bio, country - won't work")
 
     def json(self):
         return self.user_data
@@ -53,5 +53,12 @@ class User:
             response = req.get(f"https://scratch.mit.edu/users/{self.username}/").text
             group = response[response.rindex('<span class="group">'):][:70]
             return "new scratcher" in group.lower()
+        except Exception:
+            return None
+    
+    def ocular(self):
+        try:
+            response = req.get(f"https://my-ocular.jeffalo.net/api/user/{self.username}").json()
+            return response
         except Exception:
             return None
