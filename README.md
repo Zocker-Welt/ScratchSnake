@@ -37,4 +37,5 @@ User.country(User) # Returns user's country
 User.messages(User) # Returns user's message count
 User.featured_json(User) # Returns raw json of user's featured project
 User.new_scratcher(User) # Returns True if user is a new scratcher
+User.coular(User) # Returns user status json
 ```
