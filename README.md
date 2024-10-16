@@ -12,30 +12,53 @@
 
 You need to have the language Python installed. Download it here: https://www.python.org/downloads/
 
+# Cloud
+**Import the module:**
+```python
+from cloud import Cloud
+project = Cloud()
+```
+
+**Connect to cloud:**
+```python
+project.newObject("username", "session_id", "project_id")
+```
+
+**Change cloud variables:**
+```python
+project.set_var("variable_name", "value") # variable_name doesn't need to have the ☁ char, value is int
+```
+
+**Get cloud variables:**
+```python
+project.get_var("variable_name") # variable_name doesn't need to have the ☁ char
+```
+
 # User
 **Import the module:**
 ```python
 from user import User
+username = User()
 ```
 
 **Get a user:**
 ```python
-User.get(User, "username")
+username.get("username")
 ```
 
 **Function:**
 ```python
-User.json(User) # Returns the raw json data
-User.id(User) # Returns user ID
-User.scratchteam(User) # Returns True if user is scratchteam
-User.join_date(User) # Returns user's join date
-User.logo(User) # Returns a link to user's logo (90x90)
-User.wiwo(User) # Returns user's "What I'm working on" page
-User.bio(User) # Returns user's "About me" page
-User.country(User) # Returns user's country
+username.json() # Returns the raw json data
+username.id() # Returns user ID
+username.scratchteam() # Returns True if user is scratchteam
+username.join_date() # Returns user's join date
+username.logo() # Returns a link to user's logo (90x90)
+username.wiwo() # Returns user's "What I'm working on" page
+username.bio() # Returns user's "About me" page
+username.country() # Returns user's country
 
-User.messages(User) # Returns user's message count
-User.featured_json(User) # Returns raw json of user's featured project
-User.new_scratcher(User) # Returns True if user is a new scratcher
-User.coular(User) # Returns user status json
+username.messages() # Returns user's message count
+username.featured_json() # Returns raw json of user's featured project
+username.new_scratcher() # Returns True if user is a new scratcher
+username.coular() # Returns user status json
 ```
