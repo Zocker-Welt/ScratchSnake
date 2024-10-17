@@ -12,6 +12,15 @@
 
 You need to have the language Python installed. Download it here: https://www.python.org/downloads/
 
+# Installation
+**Install**
+1. Save the folder "scratch" to your computer
+2. In the folder create main.py
+3. Write you code there
+
+**Requirements**
+requests, websocket, json
+
 # Cloud
 **Import the module:**
 ```python
