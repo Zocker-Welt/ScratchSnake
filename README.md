@@ -19,7 +19,15 @@ You need to have the language Python installed. Download it here: https://www.py
 3. Write you code there
 
 **Requirements**
-requests, websocket, json
+requests:
+```
+pip install requests
+```
+websocket-client:
+```
+pip install websocket-client
+```
+json is stdlib
 
 # Cloud
 **Import the module:**
