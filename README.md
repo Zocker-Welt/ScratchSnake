@@ -17,15 +17,12 @@ You need to have the language Python installed. Download it here: https://www.py
 2. In the folder create main.py
 3. Write you code there
 
-**requests:**
-```
-pip install requests
-```
-**websocket-client:**
-```
-pip install websocket-client
-```
-**json is stdlib**
+# Requierments
+**requests**
+**re**
+**websocket-client**
+**json**
+
 
 # Cloud
 **Import the module:**
