@@ -11,7 +11,8 @@
 ```
 
 # Links
-- [wiki](https://github.com/Zocker-Welt/ScratchSnake/wiki)
+- [Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki)
+- [Get your session id](https://github.com/Zocker-Welt/ScratchSnake/wiki/Get-your-session-id)
 
 # Example usage
 ```python
@@ -55,4 +56,4 @@ cloud.newObject("username", "session_id", "project_id") # Cloud connection
 cloud_value = cloud.get_var("variable_name")
 cloud.set_var("variable_name", "value")
 ```
-See all the features int the [wiki](https://github.com/Zocker-Welt/ScratchSnake/wiki)
+See all the features int the [Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki)
