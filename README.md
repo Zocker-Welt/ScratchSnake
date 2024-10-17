@@ -19,8 +19,11 @@ You need to have the language Python installed. Download it here: https://www.py
 
 # Requierments
 **requests**
+
 **re**
+
 **websocket-client**
+
 **json**
 
 
