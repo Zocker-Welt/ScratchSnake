@@ -16,6 +16,16 @@ class Cloud:
         }
     
     def set_var(self, name, val):
+        try:
+            garbage = int(val)
+        except ValueError:
+            print("ERROR: Cloud variable could not be set.")
+            return 1
+
+        if len(val) > 256:
+            print("ERROR: Cloud variable could not be set.")
+            return 1
+        
         def on_open(ws):
             message = json.dumps({
                 "method": "set",
