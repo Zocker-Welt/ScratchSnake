@@ -58,4 +58,4 @@ cloud.newObject("username", "session_id", "project_id") # Cloud connection
 cloud_value = cloud.get_var("variable_name")
 cloud.set_var("variable_name", "value")
 ```
-See all the features in the [Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki)
+See all the features in the [Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki/Documentation)
