@@ -13,7 +13,8 @@
 # Links
 - [Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki/Documentation)
 - [Get your session id](https://github.com/Zocker-Welt/ScratchSnake/wiki/Get-your-session-id)
-- [Cloud requests](https://github.com/Zocker-Welt/ScratchSnake/wiki/Cloud-Requests)
+- [Cloud requests 1.0](https://github.com/Zocker-Welt/ScratchSnake/wiki/Cloud-Requests-1.0)
+- [Cloud requests 2.0](https://github.com/Zocker-Welt/ScratchSnake/wiki/Cloud-Requests-2.0)
 - [Forum](https://scratch.mit.edu/discuss/topic/786441/?page=1#post-8204810)
 
 # Example usage
