@@ -11,7 +11,7 @@
 ```
 
 # Links - ScratchSnake is in Python and NodeJs
-- [AllForum](https://scratch.mit.edu/discuss/topic/786441/?page=1#post-8204810)
+- [All Forum](https://scratch.mit.edu/discuss/topic/786441/?page=1#post-8204810)
 - [All Get your session id](https://github.com/Zocker-Welt/ScratchSnake/wiki/Get-your-session-id)
   
 - [Python Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki/Python-Documentation)
