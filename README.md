@@ -10,7 +10,7 @@
         /__ __ _/  /__/ \__/  /__/  \__\ |__|\__\ /__ __ __/
 ```
 
-# Links
+# Links - ScratchSnake is in Python and NodeJs
 - [Documentation](https://github.com/Zocker-Welt/ScratchSnake/wiki/Documentation)
 - [Get your session id](https://github.com/Zocker-Welt/ScratchSnake/wiki/Get-your-session-id)
 - [Cloud requests 1.0](https://github.com/Zocker-Welt/ScratchSnake/wiki/Cloud-Requests-1.0)
